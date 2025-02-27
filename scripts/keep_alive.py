@@ -20,4 +20,4 @@ def keep_alive(interval=60):
 if __name__ == "__main__":
     keep_alive(interval=60)  # Set the interval in seconds (e.g., every 60 seconds)
 
-#run nohup keep_alive.py & in the terminal
+#run nohup python3 keep_alive.py & in the terminal
