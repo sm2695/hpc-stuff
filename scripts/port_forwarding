@@ -1,0 +1,12 @@
+#on Dardel strat an interactive session
+#salloc --time=10:00:00 --partition=shared -N 1 -A naiss2024-22-28
+
+#activate venv or conda environment
+
+#jupyter notebook --ip 0.0.0.0 --no-browser
+
+#on local machine within a new terminal tab. Check port of jupyter and update below instead of 8888 if different
+
+ssh -L 8888:nid001009:8888 susmita@rackham.uppmax.uu.se
+
+
